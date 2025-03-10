@@ -3,67 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar">
-        <div class="nav-container">
-            <a href="#" class="logo">Portfolio</a>
+        <div class="container">
+            <a href="#" class="logo">My Portfolio</a>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Cerificates</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <section id="home" class="section home-section">
-        <div class="content">
-            <img src="https://originaldiving.d3r.site/images/hero_xlarge/566065-gettyimages-534087391-lemon-shark-header.jpg" alt="Profile Image" class="profile-image">
-            <h1>Welcome to My Portfolio</h1>
-            <p>I'm a web developer passionate about creating amazing user experiences.</p>
-            <a href="#about" class="btn">Learn More</a>
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="profile">
+                <img src="https://originaldiving.d3r.site/images/hero_xlarge/566065-gettyimages-534087391-lemon-shark-header.jpg" alt="Profile Image" class="profile-img">
+                <h1>John Doe</h1>
+                <p>Web Developer & Designer</p>
+            </div>
         </div>
     </section>
 
-    <section id="about" class="section about-section">
-        <div class="content">
-            <h2>About Me</h2>
-            <p>Hi, Im Patrick John Duran a first year Computer Science student of Western Mindanao State University.</p>
-        </div>
-    </section>
-
-    <section id="projects" class="section projects-section">
-        <div class="content">
-            <h2>Certificate</h2>
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>My Projects</h2>
             <div class="project-grid">
-                <div class="project-card">
-                   <iframe 
+                <div class="project-item">
+                    <iframe 
         src="https://freecodecamp.org/certification/Knekk7/responsive-web-design">
     </iframe>
-                    <h3>Certificate</h3>
-                    <p>Freecodecamp's-A Responsive Web Design Certificate</p>
-                    <a href="https:://freecodecamp.org">freecodecamp.org</a>
+                    <p>Certificate</p>
                 </div>
-                <div class="project-card">
-                    <h3>Certificate</h3>
-                    <p>Nothing Yet</p>
-                </div>
+                <div class="project-item">
+                    <img src="" alt="Still nothing">
+                    <p>Certificate</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section contact-section">
-        <div class="content">
+    <section id="contact" class="contact-section">
+        <div class="container">
             <h2>Contact Me</h2>
-            <p>Feel free to gmail: <a href="mailto:itsugayakenshiro@gmail.com">itsugayakenshiro@gmail.com</a>.</p>
+            <form>
+                <p>Feel free to contact me : <a href="itsugayakenshiro@gmail.com" class="email-link">itsugayakenshiro@gmail.com</a></p>
+            </form>
         </div>
     </section>
-
-    <footer class="footer">
-        <p>&copy; My Portfolio.</p> 
-    </footer>
 </body>
